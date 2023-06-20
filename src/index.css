@@ -1,0 +1,232 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Playfair', serif !important;
+
+}
+
+/* code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+} */
+
+a{
+  color: black !important;
+  text-decoration: none !important;
+  font-size: 20px;
+  margin: 0px 10px;
+}
+
+.NavBg{
+  margin-top: 100px;
+  background-color: #F5F5F3;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+
+}
+
+.navbar-brand{
+  width: 40%;
+}
+
+.Nav-Menu--SearchIcon{
+  color: white !important;
+}
+
+.logo_img{
+  width: 12%;
+}
+
+/* ===============> nav menu design end <================*/
+
+.slider img{
+  height: 100vh;
+}
+
+/* ===============> slider design end <================*/
+
+.tab_bg{
+  /* background-color: black; */
+  height: auto;
+  overflow: hidden;
+  padding-bottom: 20px;
+}
+
+.BlogModal{
+  cursor: pointer;
+}
+
+.img_height{
+  height: 250px;
+}
+
+.img_height2{
+  height: 250px;
+}
+
+.showImg{
+  padding: 10px;
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+  overflow: hidden;
+
+}
+
+.contact_button{
+  margin-right: 5px;
+ 
+}
+
+.Count_contact-button{
+  text-align: center;
+}
+
+.Count_contact-button button{
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.from_main--section{
+  margin: auto;
+  z-index: 1;
+}
+
+.delete_Button--Align{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.Search_section{
+  display: flex;
+  justify-content: space-between;
+}
+
+select{
+  width: 20% !important;
+  margin-bottom: 10px !important;
+  box-shadow: none !important;
+  border-color: brown !important;
+}
+
+.bg_img{
+  background-image: url(../public/image/h10.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.overLy{
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(0, 0, 0);
+  position: absolute;
+  opacity: .6;
+}
+
+.Total_blog{
+  background-color: #00aeff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  line-height: 40px;
+  padding: 10px 50px;
+  font-size: 20px;
+  color: white;
+  border-radius: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  display: inline-block;
+  border-left: 8px solid rgb(0, 238, 255);
+  border-right: 8px solid rgb(0, 238, 255);
+ 
+}
+
+.home_search{
+  width: 250px;
+}
+
+.Welcome{
+  justify-content: space-between;
+}
+
+.welcomeBtn{
+  background-color: #FF69B4;
+}
+
+.BlogShow-scroll{
+  overflow-y: scroll;
+  height: 100vh;
+  overflow-x: hidden;
+ 
+}
+
+.card-sizing{
+  width: 280px;
+}
+
+/* ===============> footer design start <================*/
+
+.footerBG{
+  background-color: #F5F5F3;
+  padding: 90px 0px;
+  color: black;
+}
+bg
+.footerBG ul{
+  margin: 0;
+  padding: 0;
+}
+
+.footerBG ul li{
+  list-style-type: none;
+  margin: 10px 0px;
+}
+
+.published{
+  background-color: rgb(25, 199, 126);
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 30px;
+  color: white;
+}
+
+.view_details a{
+  margin: 0 !important;
+  color: #FF69B4 !important;
+}
+/* ===============> footer design end <================*/
+.dash{
+  height: 90vh;
+  
+}
+.nav-pills .nav-link{
+  padding: 18px 20px;
+  font-size: 22px;
+}
+.nav-pills .nav-link.active{
+  background-color: #e4e4e4 !important;
+  padding: 18px 20px;
+  font-size: 22px;
+  border-right: 13px solid rgb(7, 212, 226) !important;
+}
+
+.Allbtn{
+  margin: 0 !important;
+  padding: 0 !important;
+  padding: 10px 35px !important;
+  font-size: 22px !important;
+  color: rgb(255, 255, 255) !important;
+  background-color: #00aeff !important;
+  border: none !important;
+}
+
+.backHome{
+  margin-left: 12px;
+
+}
